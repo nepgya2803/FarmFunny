@@ -1,10 +1,12 @@
-#include "action.h"
+#include "Action.h"
 
 #ifdef ANIMAL_H
 #define ANIMAL_H
 
-namespace Animals {
-    class AnimalEntity {
+namespace Animals
+{
+    class AnimalEntity
+    {
         public:
             std::string Name;
             int Age;

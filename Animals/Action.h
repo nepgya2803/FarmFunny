@@ -1,8 +1,10 @@
 #ifdef ACTION_H
 #define ACTION_H
 
-namespace Animals {
-    class Action {
+namespace Animals
+{
+    class Action
+    {
         public:
             virtual string Sound();
             virtual string Eat();
