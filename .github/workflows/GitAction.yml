@@ -14,8 +14,7 @@ jobs:
         run: |
           mkdir build
           cd build
-          cmake ..
-          make update -j
+          cmake ..        
       
       - name: build
         run: |
