@@ -1,26 +1,37 @@
 name: DepressFarm
 
-on:
-  push:
+on: [push]
 
 jobs:
+  # scan-source:
+  #   name: sonar scan
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: SonarSource/sonarcloud-github-c-cpp@v3.0.0
+      
+  #     - name: scan
+        
+
   build-project:
     name: build project
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4.1.7
 
+      # Create build directory
       - name: Checkout
         run: |
           mkdir build
           cd build
           cmake ..        
       
+      # Build the source
       - name: build
         run: |
           cd build
           cmake --build .
 
+      # Run the output
       - name: run
         run: |
           cd build
