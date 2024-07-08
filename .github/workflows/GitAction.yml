@@ -21,7 +21,10 @@ jobs:
           cd build
           cmake --build .
 
-
+      - name: run
+        run: |
+          cd build
+          ./source
 
       
 
