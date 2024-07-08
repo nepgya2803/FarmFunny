@@ -1,0 +1,28 @@
+name: DepressFarm
+
+on:
+  push:
+
+jobs:
+  build-project:
+    name: build project
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.1.7
+
+      - name: Checkout
+        run: |
+          mkdir build
+          cd build
+          cmake ..
+          make update -j
+      
+      - name: build
+        run: |
+          cd build
+          cmake --build .
+
+
+
+      
+
