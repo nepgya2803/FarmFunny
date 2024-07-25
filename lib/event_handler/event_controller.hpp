@@ -2,14 +2,13 @@
 #define EVENT_HANDLER_HPP
 #include "../common/EventCandidate.hpp"
 #include "../common/Logger.hpp"
-#include <iostream>
 
 namespace EventHandler
 {
     class EventController
     {
         public:
-            static void InputHander(EVENTCANDIDATE candiate);
+            static void InputHandler(EVENT_CANDIDATE candidate);
 
         private:
             static void Exit();

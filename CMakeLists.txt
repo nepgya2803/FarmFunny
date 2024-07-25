@@ -10,4 +10,5 @@ add_executable(source ${SOURCES}
         lib/event_handler/event_controller.hpp
         lib/event_handler/event_controller.cpp
         lib/common/EventCandidate.hpp
-        lib/common/Logger.hpp)
+        lib/common/Logger.hpp
+        lib/common/Logger.cpp)

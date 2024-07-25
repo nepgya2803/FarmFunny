@@ -1,8 +1,15 @@
+#pragma once
 #ifndef LOGGER_HPP
 #define LOGGER_HPP
 #include <iostream>
-#define LOG(ITEMS)                                                             \
-    ((dynamic_cast<std::ostringstream&>(                                       \
-        std::ostringstream().seekp(0, ios_base::cur) << ITEMS))                \
-       .str())
+#include <utility>
+
+namespace Logger
+{
+    void LOG();
+
+    template <typename First, typename... Rest>
+    void LOG(First&& first, Rest&&... rest);
+} // namespace Logger
+
 #endif // LOGGER_HPP

@@ -1,5 +1,8 @@
-# ninja log v6
+# ninja log v5
 762	1049	7436068668621775	source.exe	c46f2482b6b4cde8
-7	736	7436068661081065	CMakeFiles/source.dir/main.cpp.obj	cfa4c77b63aa04a5
-16	762	7436068661165077	CMakeFiles/source.dir/lib/event_handler/event_controller.cpp.obj	e175ae804e2b7990
-2	519	7436074092264218	build.ninja	d938210aa29ab033
+13	346	7436394802271511	CMakeFiles/source.dir/main.cpp.obj	a4299d1500611bf7
+2	329	7436394802101523	CMakeFiles/source.dir/lib/event_handler/event_controller.cpp.obj	e7ad805055d653ea
+2	519	7436395611895775	build.ninja	d938210aa29ab033
+2	334	7436396446517617	CMakeFiles/source.dir/lib/common/Logger.cpp.obj	db4bcf5bc9748c85
+12	336	7436396637360418	CMakeFiles/source.dir/main.cpp.obj	a4299d1500611bf7
+2	334	7436396743027015	CMakeFiles/source.dir/lib/event_handler/event_controller.cpp.obj	e7ad805055d653ea
