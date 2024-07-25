@@ -1,6 +1,7 @@
+#include "lib/common/Logger.hpp"
+#include "lib/event_handler/event_controller.hpp"
+#include <conio.h>
 #include <iostream>
-
-#define LOG(ITEMS) std::cout << ITEMS << std::endl
 
 int main()
 {
@@ -14,7 +15,10 @@ int main()
         LOG("4. Feed animals");
         LOG("5. Let animals out");
         LOG("6. Buy animals");
-        LOG("7. Sell animals");
-        LOG("8. Quit the game");
+        LOG("7. Buy food");
+        LOG("8. Sell animals");
+        LOG("9. Quit the game");
+        EventHandler::EventController::InputHander(
+          static_cast<EVENTCANDIDATE>(_getch() - '0'));
     }
 }

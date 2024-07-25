@@ -12,6 +12,8 @@ IndentCaseLabels: false
 AllowShortEnumsOnASingleLine: false # is available since clang-format 12.
 IndentAccessModifiers: true         # is available since clang-format 13.
 NamespaceIndentation: All
+SeparateDefinitionBlocks: Always
+EmptyLineBeforeAccessModifier: LogicalBlock
 BraceWrapping:
   AfterFunction: false
 ColumnLimit: 80

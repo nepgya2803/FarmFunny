@@ -6,5 +6,8 @@ project(DepressFarm)
 
 file(GLOB SOURCES "./main.cpp")
 
-add_executable(source ${SOURCES})
-
+add_executable(source ${SOURCES}
+        lib/event_handler/event_controller.hpp
+        lib/event_handler/event_controller.cpp
+        lib/common/EventCandidate.hpp
+        lib/common/Logger.hpp)
