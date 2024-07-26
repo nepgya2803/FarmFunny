@@ -6,7 +6,7 @@ void EventHandler::EventController::InputHandler(EVENT_CANDIDATE candidate)
         switch (candidate)
         {
         case REPORT_ALL:
-            Logger::LOG("Displaying all resource");
+            Logger::LogInfo("Displaying all resource");
             // TODO: Report all animal resource information
             break;
 
@@ -40,7 +40,7 @@ void EventHandler::EventController::InputHandler(EVENT_CANDIDATE candidate)
 
         case QUIT:
             // TODO: terminate the program. Save all progress
-            Logger::LOG("Thank for playing! No joke");
+            Logger::LogInfo("Thank for playing! No joke");
             Exit();
             break;
 

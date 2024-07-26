@@ -1,8 +1,24 @@
-# ninja log v5
-762	1049	7436068668621775	source.exe	c46f2482b6b4cde8
-13	346	7436394802271511	CMakeFiles/source.dir/main.cpp.obj	a4299d1500611bf7
-2	329	7436394802101523	CMakeFiles/source.dir/lib/event_handler/event_controller.cpp.obj	e7ad805055d653ea
-2	519	7436395611895775	build.ninja	d938210aa29ab033
-2	334	7436396446517617	CMakeFiles/source.dir/lib/common/Logger.cpp.obj	db4bcf5bc9748c85
-12	336	7436396637360418	CMakeFiles/source.dir/main.cpp.obj	a4299d1500611bf7
-2	334	7436396743027015	CMakeFiles/source.dir/lib/event_handler/event_controller.cpp.obj	e7ad805055d653ea
+# ninja log v6
+11	750	7436780595843485	CMakeFiles/source.dir/main.cpp.obj	cfa4c77b63aa04a5
+653	970	7436871626855857	source.exe	fd1e4019a50fe73a
+45	919	7436779346312139	CMakeFiles/source.dir/lib/common/Logger.cpp.obj	29482f90e03dea06
+24	630	7436871620570211	CMakeFiles/source.dir/lib/Entity/Chicken/Chicken.cpp.obj	7f7e53938a9e303a
+3	533	7436881194024853	build.ninja	d938210aa29ab033
+8	627	7436781115969538	CMakeFiles/source.dir/lib/event_handler/event_controller.cpp.obj	e175ae804e2b7990
+31	696	7436780492803485	CMakeFiles/source.dir/lib/common/Logger/Logger.cpp.obj	70b572c95489d002
+36	640	7436871620681034	CMakeFiles/source.dir/lib/Entity/Dog/Dog.cpp.obj	e6d34c3383835b3c
+10	653	7436871620423157	CMakeFiles/source.dir/lib/Entity/Animal/Animals.cpp.obj	572cee65410948f7
+31	723	7436895954412034	CMakeFiles/source.dir/lib/Entity/Chicken/Chicken.cpp.obj	7f7e53938a9e303a
+51	735	7436895954613250	CMakeFiles/source.dir/lib/Entity/Cat/Cat.cpp.obj	70e9ed25e5ea4833
+41	747	7436895954509049	CMakeFiles/source.dir/lib/Entity/Dog/Dog.cpp.obj	e6d34c3383835b3c
+13	751	7436895954230493	CMakeFiles/source.dir/lib/Entity/Animal/Animals.cpp.obj	572cee65410948f7
+85	797	7436895954944264	CMakeFiles/source.dir/lib/Entity/Pig/Pig.cpp.obj	5988da85c04e6200
+46	775	7436903507348965	CMakeFiles/source.dir/lib/Entity/Cat/Cat.cpp.obj	70e9ed25e5ea4833
+25	589	7436928995968111	CMakeFiles/source.dir/lib/Entity/Chicken/Chicken.cpp.obj	7f7e53938a9e303a
+45	598	7436928996172136	CMakeFiles/source.dir/lib/Entity/Pig/Pig.cpp.obj	5988da85c04e6200
+35	609	7436928996071871	CMakeFiles/source.dir/lib/Entity/Dog/Dog.cpp.obj	e6d34c3383835b3c
+10	530	7436929163416549	CMakeFiles/source.dir/lib/Entity/Animal/Animals.cpp.obj	572cee65410948f7
+10	522	7436929599147670	CMakeFiles/source.dir/lib/Entity/Pig/Pig.cpp.obj	5988da85c04e6200
+10	144	7436930122536617	CMakeFiles/source.dir/lib/Entity/Animal/Animals.cpp.obj	572cee65410948f7
+11	478	7436930424850241	CMakeFiles/source.dir/lib/Entity/Animal/Animals.cpp.obj	572cee65410948f7
+11	504	7436930749548553	CMakeFiles/source.dir/lib/Entity/Animal/Animals.cpp.obj	572cee65410948f7

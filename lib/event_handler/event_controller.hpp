@@ -1,7 +1,7 @@
 #ifndef EVENT_HANDLER_HPP
 #define EVENT_HANDLER_HPP
-#include "../common/EventCandidate.hpp"
-#include "../common/Logger.hpp"
+#include "../common/EnumMember/EventCandidate.hpp"
+#include "../common/Logger/Logger.hpp"
 
 namespace EventHandler
 {
