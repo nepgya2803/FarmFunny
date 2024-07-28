@@ -1,6 +1,6 @@
 #ifndef CHICKEN_HPP
 #define CHICKEN_HPP
-#include "../Animal/Animal.hpp"
+#include "../Animal.hpp"
 
 namespace Entity
 {

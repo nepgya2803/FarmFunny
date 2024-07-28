@@ -11,14 +11,18 @@ add_executable(source ${SOURCES}
         lib/event_handler/event_controller.cpp
         lib/common/EnumMember/EventCandidate.hpp
         lib/common/Logger/Logger.hpp
-        lib/Entity/Animal/Animal.hpp
-        lib/Entity/Animal/Animals.cpp
-        lib/Entity/Chicken/Chicken.hpp
-        lib/Entity/Chicken/Chicken.cpp
-        lib/Entity/Dog/Dog.hpp
-        lib/Entity/Dog/Dog.cpp
-        lib/Entity/Cat/Cat.hpp
-        lib/Entity/Cat/Cat.cpp
-        lib/Entity/Pig/Pig.hpp
-        lib/Entity/Pig/Pig.cpp
+        lib/models/Animal.hpp
+        lib/models/Chicken/Chicken.hpp
+        lib/models/Chicken/Chicken.cpp
+        lib/models/Dog/Dog.hpp
+        lib/models/Dog/Dog.cpp
+        lib/models/Cat/Cat.hpp
+        lib/models/Cat/Cat.cpp
+        lib/models/Pig/Pig.hpp
+        lib/models/Pig/Pig.cpp
+        lib/resource/Unit.hpp
+        lib/resource/Food.cpp
+        lib/resource/Money.cpp
+        lib/action/basic_action.hpp
+        lib/action/basic_action.cpp
 )

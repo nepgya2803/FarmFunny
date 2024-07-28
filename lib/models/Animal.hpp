@@ -8,15 +8,13 @@ namespace Entity
     class Animals
     {
         public:
-            Animals(const int& Name, const int& Age, const int& Weight,
-                    const int& HappyIndex, const int& Price);
-
-            virtual int Sound();
-            virtual int Eat();
-            virtual int Reproduce();
-            virtual int GoOut();
-            virtual int Die();
+            Animals() = default;
             virtual ~Animals() = default;
+            virtual int Sound() = 0;
+            virtual int Eat() = 0;
+            virtual int Reproduce() = 0;
+            virtual int GoOut() = 0;
+            virtual int Die() = 0;
 
         protected:
             int Name;

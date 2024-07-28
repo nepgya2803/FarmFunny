@@ -2,7 +2,7 @@
 
 #ifndef DOG_HPP
 #define DOG_HPP
-#include "../Animal/Animal.hpp"
+#include "../Animal.hpp"
 
 namespace Entity
 {
