@@ -25,4 +25,5 @@ add_executable(source ${SOURCES}
         lib/resource/Money.cpp
         lib/action/basic_action.hpp
         lib/action/basic_action.cpp
+        lib/repository/animal_repository.hpp
 )
