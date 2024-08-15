@@ -1,0 +1,235 @@
+Indexing took 2 seconds
+Indexing strategy: LightModules
+MMap generator: v1
+Header to module strategy: min usages threshold = 8, min module size = 0kb
+Number of errors = 140
+Number of unique errors = 45
+Number of compiled modules = 0
+Number of reused modules = 0
+Number of merged definitions = 0
+Number of skipped bodies = 68
+Number of accepts via secondary include = 0
+Number of rejects via secondary include = 0
+SIDYes = 453, SIDNo = 1312, SIDUnsure = 14716
+SIFYes = 692, SIFNo = 148903
+Modules cache size = 0.00 B
+No failed modules
+File C:\Users\Supnep\AppData\Local\JetBrains\Fleet\language_server\jbclangd\include\__stddef_ptrdiff_t.h: 1 errors
+[18, 9]  - unknown type name '__PTRDIFF_TYPE__'
+File C:\Users\Supnep\AppData\Local\JetBrains\Fleet\language_server\jbclangd\include\__stddef_size_t.h: 1 errors
+[18, 9]  - unknown type name '__SIZE_TYPE__'
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\vcruntime.h: 2 errors
+[192, 30]  - typedef redefinition with different types ('unsigned int' vs 'unsigned long long')
+[223, 22]  - 'short wchar_t' is invalid
+File C:\Users\Supnep\Desktop\FarmFunny\lib\models\Chicken\Chicken.cpp: 1 errors
+[0, 0]  - too many errors emitted, stopping now
+File C:\Users\Supnep\Desktop\FarmFunny\lib\event_handler\event_controller.cpp: 1 errors
+[0, 0]  - too many errors emitted, stopping now
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\intrin0.inl.h: 1 errors
+[321, 1]  - constexpr declaration of '__builtin_assume_aligned' follows non-constexpr declaration
+File C:\Users\Supnep\Desktop\FarmFunny\lib\models\Dog\Dog.cpp: 1 errors
+[0, 0]  - too many errors emitted, stopping now
+File C:\Users\Supnep\Desktop\FarmFunny\lib\models\Cat\Cat.cpp: 1 errors
+[0, 0]  - too many errors emitted, stopping now
+File C:\Users\Supnep\Desktop\FarmFunny\lib\models\Pig\Pig.cpp: 1 errors
+[0, 0]  - too many errors emitted, stopping now
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wconio.h: 16 errors
+[179, 9]  - use of undeclared identifier '__crt_va_start_a'
+[181, 9]  - use of undeclared identifier '__crt_va_end'
+[196, 9]  - use of undeclared identifier '__crt_va_start_a'
+[198, 9]  - use of undeclared identifier '__crt_va_end'
+[214, 9]  - use of undeclared identifier '__crt_va_start_a'
+[216, 9]  - use of undeclared identifier '__crt_va_end'
+[231, 9]  - use of undeclared identifier '__crt_va_start_a'
+[233, 9]  - use of undeclared identifier '__crt_va_end'
+[249, 9]  - use of undeclared identifier '__crt_va_start_a'
+[251, 9]  - use of undeclared identifier '__crt_va_end'
+[266, 9]  - use of undeclared identifier '__crt_va_start_a'
+[268, 9]  - use of undeclared identifier '__crt_va_end'
+[357, 9]  - use of undeclared identifier '__crt_va_start_a'
+[361, 9]  - use of undeclared identifier '__crt_va_end'
+[376, 9]  - use of undeclared identifier '__crt_va_start_a'
+[380, 9]  - use of undeclared identifier '__crt_va_end'
+File C:\Users\Supnep\Desktop\FarmFunny\lib\action\basic_action.cpp: 1 errors
+[0, 0]  - too many errors emitted, stopping now
+File C:\Users\Supnep\Desktop\FarmFunny\main.cpp: 1 errors
+[0, 0]  - too many errors emitted, stopping now
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wstdio.h: 16 errors
+[486, 9]  - use of undeclared identifier '__crt_va_start_a'
+[488, 9]  - use of undeclared identifier '__crt_va_end'
+[504, 9]  - use of undeclared identifier '__crt_va_start_a'
+[506, 9]  - use of undeclared identifier '__crt_va_end'
+[523, 9]  - use of undeclared identifier '__crt_va_start_a'
+[525, 9]  - use of undeclared identifier '__crt_va_end'
+[543, 13]  - use of undeclared identifier '__crt_va_start_a'
+[545, 13]  - use of undeclared identifier '__crt_va_end'
+[564, 9]  - use of undeclared identifier '__crt_va_start_a'
+[566, 9]  - use of undeclared identifier '__crt_va_end'
+[582, 9]  - use of undeclared identifier '__crt_va_start_a'
+[584, 9]  - use of undeclared identifier '__crt_va_end'
+[600, 9]  - use of undeclared identifier '__crt_va_start_a'
+[602, 9]  - use of undeclared identifier '__crt_va_end'
+[617, 9]  - use of undeclared identifier '__crt_va_start_a'
+[619, 9]  - use of undeclared identifier '__crt_va_end'
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_stdio_config.h: 1 errors
+[35, 10]  - Unsupported architecture
+Processed 9 TUs in
+ - real time = 2140ms
+ - indexing CPU time = 5929ms
+ - symbols writing CPU time = 857ms
+ - symbols reading CPU time = 203ms
+ - waiting to finish time = 952ms
+TU [C:\Users\Supnep\Desktop\FarmFunny\lib\resource\Food.cpp] processed in 17ms and succeed.
+TU [C:\Users\Supnep\Desktop\FarmFunny\lib\resource\Money.cpp] processed in 39ms and succeed.
+TU [C:\Users\Supnep\Desktop\FarmFunny\lib\models\Dog\Dog.cpp] processed in 533ms and succeed.
+TU [C:\Users\Supnep\Desktop\FarmFunny\lib\action\basic_action.cpp] processed in 663ms and succeed.
+TU [C:\Users\Supnep\Desktop\FarmFunny\lib\models\Chicken\Chicken.cpp] processed in 668ms and succeed.
+TU [C:\Users\Supnep\Desktop\FarmFunny\lib\event_handler\event_controller.cpp] processed in 809ms and succeed.
+TU [C:\Users\Supnep\Desktop\FarmFunny\main.cpp] processed in 890ms and succeed.
+TU [C:\Users\Supnep\Desktop\FarmFunny\lib\models\Cat\Cat.cpp] processed in 1154ms and succeed.
+TU [C:\Users\Supnep\Desktop\FarmFunny\lib\models\Pig\Pig.cpp] processed in 1156ms and succeed.
+
+WAIT TIME:
+Waiting for symbol files took 10ms
+Waiting for modules took 0ms of CPU time
+
+PROCESSED TIMES:
+File C:\Users\Supnep\Desktop\FarmFunny\main.cpp processed 1 times
+File C:\Users\Supnep\Desktop\FarmFunny\lib\models\Dog\Dog.hpp processed 1 times
+File C:\Users\Supnep\Desktop\FarmFunny\lib\models\Pig\Pig.cpp processed 1 times
+File C:\Users\Supnep\Desktop\FarmFunny\lib\models\Dog\Dog.cpp processed 1 times
+File C:\Users\Supnep\Desktop\FarmFunny\lib\action\basic_action.hpp processed 1 times
+File C:\Users\Supnep\Desktop\FarmFunny\lib\resource\Food.cpp processed 1 times
+File C:\Users\Supnep\Desktop\FarmFunny\lib\models\Chicken\Chicken.hpp processed 1 times
+File C:\Users\Supnep\Desktop\FarmFunny\lib\event_handler\event_controller.cpp processed 1 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\conio.h processed 1 times
+File C:\Users\Supnep\Desktop\FarmFunny\lib\models\Chicken\Chicken.cpp processed 1 times
+File C:\Users\Supnep\Desktop\FarmFunny\lib\resource\Money.cpp processed 1 times
+File C:\Users\Supnep\Desktop\FarmFunny\lib\action\basic_action.cpp processed 1 times
+File C:\Users\Supnep\Desktop\FarmFunny\lib\models\Cat\Cat.hpp processed 1 times
+File C:\Users\Supnep\Desktop\FarmFunny\lib\models\Pig\Pig.hpp processed 1 times
+File C:\Users\Supnep\Desktop\FarmFunny\lib\models\Cat\Cat.cpp processed 1 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\__msvc_system_error_abi.hpp processed 2 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\iostream processed 2 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\xthreads.h processed 2 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\ios processed 2 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\xerrc.h processed 2 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\share.h processed 2 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\sstream processed 2 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\memory processed 2 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\streambuf processed 2 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\xcall_once.h processed 2 times
+File C:\Users\Supnep\Desktop\FarmFunny\lib\resource\Unit.hpp processed 2 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\xlocale processed 2 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\clocale processed 2 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\xlocinfo processed 2 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\iterator processed 2 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\system_error processed 2 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\time.h processed 2 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\xtimec.h processed 2 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\typeinfo processed 2 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\atomic processed 2 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\vcruntime_typeinfo.h processed 2 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\__msvc_xlocinfo_types.hpp processed 2 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\xfacet processed 2 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\ostream processed 2 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\ctime processed 2 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\stdexcept processed 2 times
+File C:\Users\Supnep\Desktop\FarmFunny\lib\common\EnumMember\EventCandidate.hpp processed 2 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\cerrno processed 2 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\xlocnum processed 2 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\istream processed 2 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\cmath processed 2 times
+File C:\Users\Supnep\Desktop\FarmFunny\lib\common\Logger\Logger.hpp processed 2 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\xiosbase processed 2 times
+File C:\Users\Supnep\Desktop\FarmFunny\lib\event_handler\event_controller.hpp processed 2 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\locale.h processed 2 times
+File C:\Users\Supnep\Desktop\FarmFunny\lib\models\Animal.hpp processed 4 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wstdlib.h processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_malloc.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\climits processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\cwchar processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\math.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\vadefs.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\eh.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\intrin0.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\cstddef processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\xutility processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\errno.h processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_share.h processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\malloc.h processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wdirect.h processed 7 times
+File C:\Users\Supnep\AppData\Local\JetBrains\Fleet\language_server\jbclangd\include\__stddef_header_macro.h processed 7 times
+File C:\Users\Supnep\AppData\Local\JetBrains\Fleet\language_server\jbclangd\include\__stddef_max_align_t.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\yvals_core.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\cstdint processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\cstdlib processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\ctype.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\vcruntime_string.h processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_memory.h processed 7 times
+File C:\Users\Supnep\AppData\Local\JetBrains\Fleet\language_server\jbclangd\include\stdint.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\xtr1common processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wprocess.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\cctype processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wstdio.h processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_terminate.h processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_stdio_config.h processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\sys\stat.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\concurrencysal.h processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wio.h processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\iosfwd processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\crtdbg.h processed 7 times
+File C:\Users\Supnep\AppData\Local\JetBrains\Fleet\language_server\jbclangd\include\limits.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\type_traits processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\__msvc_sanitizer_annotate_container.hpp processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\sys\types.h processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_search.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\sal.h processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\string.h processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\wchar.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\xmemory processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\vcruntime_new.h processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wstring.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\vcruntime.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\cstring processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_math.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\vcruntime_exception.h processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdlib.h processed 7 times
+File C:\Users\Supnep\AppData\Local\JetBrains\Fleet\language_server\jbclangd\include\float.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\stdint.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\vcruntime_new_debug.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\intrin0.inl.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\limits processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\cfloat processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\crtdefs.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\string processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\xatomic.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\__msvc_iter_core.hpp processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\initializer_list processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wtime.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\yvals.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\cstdio processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\new processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\utility processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\xkeycheck.h processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wctype.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\exception processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\limits.h processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_memcpy_s.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\xstring processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdio.h processed 7 times
+File C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wconio.h processed 7 times
+File C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\use_ansi.h processed 7 times
+File C:\Users\Supnep\Desktop\FarmFunny\cmake-build-debug\<built-in> processed 9 times
+File C:\Users\Supnep\Desktop\FarmFunny\cmake-build-debug\<command line> processed 9 times
+File C:\Users\Supnep\AppData\Local\JetBrains\Fleet\language_server\jbclangd\include\__stddef_null.h processed 14 times
+File C:\Users\Supnep\AppData\Local\JetBrains\Fleet\language_server\jbclangd\include\vadefs.h processed 14 times
+File C:\Users\Supnep\AppData\Local\JetBrains\Fleet\language_server\jbclangd\include\__stddef_offsetof.h processed 14 times
+File C:\Users\Supnep\AppData\Local\JetBrains\Fleet\language_server\jbclangd\include\stddef.h processed 14 times
+File C:\Users\Supnep\AppData\Local\JetBrains\Fleet\language_server\jbclangd\include\__stddef_size_t.h processed 14 times
+File C:\Users\Supnep\AppData\Local\JetBrains\Fleet\language_server\jbclangd\include\__stddef_ptrdiff_t.h processed 14 times
+File C:\Users\Supnep\AppData\Local\JetBrains\Fleet\language_server\jbclangd\include\__stddef_nullptr_t.h processed 14 times
+File C:\Users\Supnep\AppData\Local\JetBrains\Fleet\language_server\jbclangd\include\__stddef_wchar_t.h processed 14 times
+File C:\Users\Supnep\AppData\Local\JetBrains\Fleet\language_server\jbclangd\include\intrin0.h processed 16 times
+File C:\Users\Supnep\AppData\Local\JetBrains\Fleet\language_server\jbclangd\include\yvals_core.h processed 194 times

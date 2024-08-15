@@ -3,7 +3,8 @@ cmake_minimum_required(VERSION 3.22.1)
 project(DepressFarm)
 
 # include_directories(include)
-
+# For Fleet build configuration
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 file(GLOB SOURCES "./main.cpp")
 
 add_executable(source ${SOURCES}

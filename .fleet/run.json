@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "type": "command",
+            "name": "Build",
+            "program": "powershell.exe",
+            "args": [
+                "--build",
+                "$PROJECT_DIR$/cmake-build-debug",
+                "--target",
+                "FarmFunny"
+            ],
+        },
+        {
+            "type": "command",
+            "name": "Run",
+            "program": "$PROJECT_DIR$/cmake-build-debug/source.exe",
+        },
+    ]
+}
